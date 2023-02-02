@@ -1,0 +1,255 @@
+{
+    "timestamp": 1675335387048,
+    "webhookEvent": "jira:issue_deleted",
+    "user": {
+        "self": "https://testing33.atlassian.net/rest/api/2/user?accountId=63c7c1eebfdb647eb1d9e11f",
+        "accountId": "63c7c1eebfdb647eb1d9e11f",
+        "avatarUrls": {
+            "48x48": "https://secure.gravatar.com/avatar/d3d6c8557aa6d5baba988d81f839636f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-5.png",
+            "24x24": "https://secure.gravatar.com/avatar/d3d6c8557aa6d5baba988d81f839636f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-5.png",
+            "16x16": "https://secure.gravatar.com/avatar/d3d6c8557aa6d5baba988d81f839636f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-5.png",
+            "32x32": "https://secure.gravatar.com/avatar/d3d6c8557aa6d5baba988d81f839636f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-5.png"
+        },
+        "displayName": "test",
+        "active": true,
+        "timeZone": "Asia/Calcutta",
+        "accountType": "atlassian"
+    },
+    "issue": {
+        "id": "10010",
+        "self": "https://testing33.atlassian.net/rest/api/2/10010",
+        "key": "ITSAMPLE-11",
+        "fields": {
+            "statuscategorychangedate": "2023-02-02T16:00:48.596+0530",
+            "fixVersions": [],
+            "resolution": null,
+            "lastViewed": "2023-02-02T16:21:23.310+0530",
+            "customfield_10060": [],
+            "customfield_10061": null,
+            "priority": {
+                "self": "https://testing33.atlassian.net/rest/api/2/priority/3",
+                "iconUrl": "https://testing33.atlassian.net/images/icons/priorities/medium.svg",
+                "name": "Medium",
+                "id": "3"
+            },
+            "labels": [],
+            "timeestimate": null,
+            "aggregatetimeoriginalestimate": null,
+            "versions": [],
+            "issuelinks": [],
+            "assignee": null,
+            "status": {
+                "self": "https://testing33.atlassian.net/rest/api/2/status/1",
+                "description": "The issue is open and ready for the assignee to start work on it.",
+                "iconUrl": "https://testing33.atlassian.net/images/icons/statuses/open.png",
+                "name": "Open",
+                "id": "1",
+                "statusCategory": {
+                    "self": "https://testing33.atlassian.net/rest/api/2/statuscategory/2",
+                    "id": 2,
+                    "key": "new",
+                    "colorName": "blue-gray",
+                    "name": "To Do"
+                }
+            },
+            "components": [],
+            "customfield_10050": null,
+            "customfield_10051": null,
+            "customfield_10052": null,
+            "customfield_10053": null,
+            "customfield_10054": null,
+            "customfield_10055": null,
+            "customfield_10056": {
+                "id": "5",
+                "name": "Time to resolution",
+                "_links": {
+                    "self": "https://testing33.atlassian.net/rest/servicedeskapi/request/10010/sla/5"
+                },
+                "completedCycles": []
+            },
+            "customfield_10057": {
+                "id": "6",
+                "name": "Time to first response",
+                "_links": {
+                    "self": "https://testing33.atlassian.net/rest/servicedeskapi/request/10010/sla/6"
+                },
+                "completedCycles": []
+            },
+            "customfield_10058": {
+                "id": "7",
+                "name": "Time to close after resolution",
+                "_links": {
+                    "self": "https://testing33.atlassian.net/rest/servicedeskapi/request/10010/sla/7"
+                },
+                "completedCycles": []
+            },
+            "customfield_10059": {
+                "id": "8",
+                "name": "Time to review normal change",
+                "_links": {
+                    "self": "https://testing33.atlassian.net/rest/servicedeskapi/request/10010/sla/8"
+                },
+                "completedCycles": []
+            },
+            "customfield_10049": null,
+            "aggregatetimeestimate": null,
+            "creator": {
+                "self": "https://testing33.atlassian.net/rest/api/2/user?accountId=63c7c1eebfdb647eb1d9e11f",
+                "accountId": "63c7c1eebfdb647eb1d9e11f",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/d3d6c8557aa6d5baba988d81f839636f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-5.png",
+                    "24x24": "https://secure.gravatar.com/avatar/d3d6c8557aa6d5baba988d81f839636f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-5.png",
+                    "16x16": "https://secure.gravatar.com/avatar/d3d6c8557aa6d5baba988d81f839636f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-5.png",
+                    "32x32": "https://secure.gravatar.com/avatar/d3d6c8557aa6d5baba988d81f839636f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-5.png"
+                },
+                "displayName": "test",
+                "active": true,
+                "timeZone": "Asia/Calcutta",
+                "accountType": "atlassian"
+            },
+            "subtasks": [],
+            "customfield_10040": null,
+            "customfield_10041": null,
+            "customfield_10042": null,
+            "reporter": {
+                "self": "https://testing33.atlassian.net/rest/api/2/user?accountId=63c7c1eebfdb647eb1d9e11f",
+                "accountId": "63c7c1eebfdb647eb1d9e11f",
+                "avatarUrls": {
+                    "48x48": "https://secure.gravatar.com/avatar/d3d6c8557aa6d5baba988d81f839636f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-5.png",
+                    "24x24": "https://secure.gravatar.com/avatar/d3d6c8557aa6d5baba988d81f839636f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-5.png",
+                    "16x16": "https://secure.gravatar.com/avatar/d3d6c8557aa6d5baba988d81f839636f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-5.png",
+                    "32x32": "https://secure.gravatar.com/avatar/d3d6c8557aa6d5baba988d81f839636f?d=https%3A%2F%2Favatar-management--avatars.us-west-2.prod.public.atl-paas.net%2Finitials%2FT-5.png"
+                },
+                "displayName": "test",
+                "active": true,
+                "timeZone": "Asia/Calcutta",
+                "accountType": "atlassian"
+            },
+            "customfield_10043": null,
+            "aggregateprogress": {
+                "progress": 0,
+                "total": 0
+            },
+            "customfield_10044": null,
+            "customfield_10045": null,
+            "customfield_10046": null,
+            "customfield_10047": null,
+            "customfield_10048": null,
+            "customfield_10038": null,
+            "customfield_10039": null,
+            "progress": {
+                "progress": 0,
+                "total": 0
+            },
+            "votes": {
+                "self": "https://testing33.atlassian.net/rest/api/2/issue/ITSAMPLE-11/votes",
+                "votes": 0,
+                "hasVoted": false
+            },
+            "worklog": {
+                "startAt": 0,
+                "maxResults": 20,
+                "total": 0,
+                "worklogs": []
+            },
+            "issuetype": {
+                "self": "https://testing33.atlassian.net/rest/api/2/issuetype/10007",
+                "id": "10007",
+                "description": "A task that needs to be done.",
+                "iconUrl": "https://testing33.atlassian.net/rest/api/2/universal_avatar/view/type/issuetype/avatar/10557?size=medium",
+                "name": "Task",
+                "subtask": false,
+                "avatarId": 10557,
+                "hierarchyLevel": 0
+            },
+            "timespent": null,
+            "customfield_10030": null,
+            "project": {
+                "self": "https://testing33.atlassian.net/rest/api/2/project/10001",
+                "id": "10001",
+                "key": "ITSAMPLE",
+                "name": "ITSM sample space",
+                "projectTypeKey": "service_desk",
+                "simplified": false,
+                "avatarUrls": {
+                    "48x48": "https://testing33.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10422",
+                    "24x24": "https://testing33.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10422?size=small",
+                    "16x16": "https://testing33.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10422?size=xsmall",
+                    "32x32": "https://testing33.atlassian.net/rest/api/2/universal_avatar/view/type/project/avatar/10422?size=medium"
+                }
+            },
+            "customfield_10031": null,
+            "customfield_10032": null,
+            "customfield_10033": [],
+            "aggregatetimespent": null,
+            "customfield_10034": null,
+            "customfield_10035": null,
+            "customfield_10036": null,
+            "customfield_10037": {
+                "languageCode": "en",
+                "displayName": "English"
+            },
+            "customfield_10027": null,
+            "customfield_10028": null,
+            "customfield_10029": null,
+            "resolutiondate": null,
+            "workratio": -1,
+            "issuerestriction": {
+                "issuerestrictions": {},
+                "shouldDisplay": false
+            },
+            "watches": {
+                "self": "https://testing33.atlassian.net/rest/api/2/issue/ITSAMPLE-11/watchers",
+                "watchCount": 1,
+                "isWatching": true
+            },
+            "created": "2023-02-02T16:00:48.092+0530",
+            "customfield_10020": null,
+            "customfield_10021": null,
+            "customfield_10022": null,
+            "customfield_10023": null,
+            "customfield_10024": null,
+            "customfield_10025": null,
+            "customfield_10026": null,
+            "customfield_10016": null,
+            "customfield_10017": null,
+            "customfield_10018": {
+                "hasEpicLinkFieldDependency": false,
+                "showField": false,
+                "nonEditableReason": {
+                    "reason": "PLUGIN_LICENSE_ERROR",
+                    "message": "The Parent Link is only available to Jira Premium users."
+                }
+            },
+            "customfield_10019": "0|i00027:",
+            "updated": "2023-02-02T16:21:32.777+0530",
+            "timeoriginalestimate": null,
+            "description": null,
+            "customfield_10010": null,
+            "customfield_10014": null,
+            "customfield_10015": null,
+            "timetracking": {},
+            "customfield_10005": null,
+            "customfield_10006": null,
+            "customfield_10007": null,
+            "security": null,
+            "customfield_10008": null,
+            "customfield_10009": null,
+            "attachment": [],
+            "summary": "Issue Updated",
+            "customfield_10001": null,
+            "customfield_10002": [],
+            "customfield_10003": null,
+            "customfield_10004": null,
+            "environment": null,
+            "duedate": null,
+            "comment": {
+                "comments": [],
+                "self": "https://testing33.atlassian.net/rest/api/3/issue/10010/comment",
+                "maxResults": 0,
+                "total": 0,
+                "startAt": 0
+            }
+        }
+    }
+}
