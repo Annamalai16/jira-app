@@ -1,0 +1,32 @@
+{
+    "name":"Webhooks for Issues",
+    "description":"Atlassian Connect app for generating webhooks for events realted to issues.",
+    "key":"com.test.issues.webhookapp",
+    "baseUrl":"https://1a03-121-244-91-51.in.ngrok.io",
+    "vendor":{
+        "name":"Example, Inc.",
+        "url":"http://example.com"
+    },
+    "authentication":{
+        "type":"none"
+    },
+    "apiVersion":1,
+    "scopes":["READ"],
+    "modules":{
+        "webhooks":[
+            {
+                "event":"jira:issue_created",
+                "url":"https://1a03-121-244-91-51.in.ngrok.io/pagerduty/webhook"
+            },
+            {
+                "event":"jira:issue_updated",
+                "url":"https://1a03-121-244-91-51.in.ngrok.io/pagerduty/webhook"
+            },
+            {
+                "event":"jira:issue_deleted",
+                "url":"https://1a03-121-244-91-51.in.ngrok.io/pagerduty/webhook"
+            }
+        ]
+    }
+    ,"version":"1.0.3-AC"
+}
